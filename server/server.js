@@ -3,8 +3,14 @@ const app = express();
 const Data = require("./Data/index");
 
 
-//<=== Middleware ===>//
-app.use(express.static("../client"));
+//<=== Serve using Vanilla JavaScript ===>//
+app.use(express.static("../client"));//Vanilla
+
+//<=== Serve using React ===>//
+/* 
+app.use("/", express.static(path.join(__dirname, "../client-react/build")));
+*/ 
+
 
 //<=== Routes ===>//
 app.get("/getQuote", (req,res) => {
