@@ -1,0 +1,19 @@
+{
+  "name": "quotemachine",
+  "version": "1.0.0",
+  "description": "![Screenshot](screenshot1.png)",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spartanhero93/quote-machine-react-andVanilla.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spartanhero93/quote-machine-react-andVanilla/issues"
+  },
+  "homepage": "https://github.com/spartanhero93/quote-machine-react-andVanilla#readme"
+}

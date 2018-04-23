@@ -5,6 +5,8 @@ body {
 
 .btn {
   margin: 2rem;
+  width: 25%;
+  margin: 0 auto;
 }
 
 .btn:hover {
@@ -19,6 +21,8 @@ body {
 .quote {
   display: flex;
   flex-direction: column;
+  width: 100vw;
   padding: 4rem;
   text-align: center;
+  border: solid 4px grey;
 }
