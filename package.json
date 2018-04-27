@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/spartanhero93/quote-machine-react-andVanilla/issues"
   },
-  "homepage": "https://github.com/spartanhero93/quote-machine-react-andVanilla#readme"
+  "homepage": "https://github.com/spartanhero93/quote-machine-react-andVanilla#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
 }

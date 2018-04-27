@@ -1,10 +1,3 @@
-// //<=== CORS proxy and URL ===>//
-
-// const [proxyUrl, URL] = [
-//   `https://cors-anywhere.herokuapp.com/`,
-//   `http://quotes.rest/quote/random.json`
-// ];
-
 let [quote, author, quoteBtn] = [
   document.querySelector("p"[0]),
   document.querySelector("em"),
