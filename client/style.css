@@ -3,8 +3,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn {
-  margin: 2rem;
   width: 25%;
   margin: 0 auto;
 }
@@ -19,10 +22,27 @@ body {
 }
 
 .quote {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   width: 100vw;
-  padding: 4rem;
+  padding: 2rem;
   text-align: center;
   border: solid 4px grey;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.userBtns {
+  padding:1rem 3rem;
+  border: solid 2px;
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+.userBtns:hover {
+  background-color: grey;
 }
