@@ -6,4 +6,4 @@
 #### npm run
 
 
-![Screenshot](screenshot1.png)
+![Screenshot](quotemachine.png)
