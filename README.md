@@ -1,6 +1,9 @@
 # quote-machine-fullstack
 
-#### localhost 9000
+### Using Create-React-App
+
+#### npm install  
+#### npm run
 
 
 ![Screenshot](screenshot1.png)
